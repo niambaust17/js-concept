@@ -52,6 +52,15 @@ console.log(remaining);
 const hasMobile = product.find(phone => phone.productName === "mobile");
 console.log(hasMobile);
 // *********************************************************************************************************************
+// reduce
+const allPrices = product.map(productPrice => productPrice.price);
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+const totalPrice = allPrices.reduce(reducer);
+console.log(totalPrice);
+//**********************************************************************************************************************
+// includes (if exist return true otherwise return false) 
+console.log(employees.includes('Jojo'));
+//**********************************************************************************************************************
 // for each (return items)
 product.forEach(element =>
 {
