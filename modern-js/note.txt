@@ -1,0 +1,29 @@
+falsy values: false, 0, blank(""), null, undefined, NaN
+truthy values: which values are not falsy they are truthy
+
+method change main array(push, splice)
+
+method return:
+
+find() first matching item (if not found return undefined)
+findIndex() first matching index (if not found return -1)
+filter() all matching item as array (if not found return [])
+slice() small portion of an array 
+splice() small portion of an array (if not found all deleteCount then remove how many found)
+concat() an array
+map() an array
+reduce() 0 is initialValue. previousValue store current return
+
+method parameter:
+find() currentValue, currentIndex, array
+slice() startIndex, endingIndex
+splice() startIndex, deleteCount, items
+reduce() previousValue, currentValue, currentIndex and array
+
+in for in loop we get index number
+in for of loop we get item
+
+by Object.keys(objectName) we get all keys as a array
+by Object.values(objectName) we get all values as array
+by Object.entries(objectName) we get all key + value. each entry is a array inside a array
+
