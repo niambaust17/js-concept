@@ -27,3 +27,5 @@ by Object.keys(objectName) we get all keys as a array
 by Object.values(objectName) we get all values as array
 by Object.entries(objectName) we get all key + value. each entry is a array inside a array
 
+spread operator make a carbon copy if we change main array copy array doesn't change. used in array and object
+rest operator used in function. it is better than arguments
