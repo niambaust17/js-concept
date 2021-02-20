@@ -37,3 +37,9 @@ console.log(result8);
 // reduce() method
 let sum = numbers.reduce((previousValue, currentValue) => { return previousValue + currentValue }, 0);
 console.log(sum);
+
+// shift() method
+const array1 = [1, 2, 3];
+const firstElement = array1.shift();
+console.log(array1); // [2, 3]
+console.log(firstElement); // 1

@@ -1,7 +1,9 @@
+primitive and reference data type
+
 falsy values: false, 0, blank(""), null, undefined, NaN
 truthy values: which values are not falsy they are truthy
 
-method change main array(push, splice)
+method change main array(push, splice, shift)
 
 method return:
 
@@ -29,3 +31,35 @@ by Object.entries(objectName) we get all key + value. each entry is a array insi
 
 spread operator make a carbon copy if we change main array copy array doesn't change. used in array and object
 rest operator used in function. it is better than arguments
+
+for import and export anything we need package.json file
+in default import we can import only one thing
+
+``(backtick key) template literals.
+tagged template . Using it, we can go between the strings and values ​​in the template literals and run different operations if we want.
+
+we make array in 2 ways
+let myArray1 = []; // literal syntax
+let myArray2 = new Array(); // constructor syntax
+
+set and weakset
+
+array object set weakset are data structure in js. set reference data type like array and object. sets are not array, set and array both are different. set used for store unique data. any data can be added into set. we can make set only using constructor syntax. set is a list of unique value.
+
+we can do method chaining with set method because it return modified set.
+
+method:
+add() add element
+delete() delete element
+clear() delete all element
+has() check element exist in set or not
+size check set length
+
+we can pass any iterable in set and set it also iterable. set has no order. using spread operator we can convert set into an array.
+
+we only add object in weakset it takes iterable but it is not iterable like set
+
+
+
+
+
