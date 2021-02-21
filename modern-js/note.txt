@@ -59,7 +59,16 @@ we can pass any iterable in set and set it also iterable. set has no order. usin
 
 we only add object in weakset it takes iterable but it is not iterable like set
 
+copyWithin js array method
 
+3 parameter target start end
 
+The elements that are found between the start and end position will be copied and placed in the place of the target position.Whoever is in the target position will pick it up. 
 
-
+target required.
+start end optional.
+start default 0. 
+end default arraylength.
+never change array length.
+overwrite main array. 
+return modified array. 
